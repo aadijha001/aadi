@@ -60,7 +60,7 @@ const Hero = () => {
               <img
                 src={profile}
                 alt="Profile"
-                className="rounded-full w-full max-w-md mx-auto shadow-2xl transform transition-transform duration-800 group-hover:grayscale group-hover:translate-x-5 group-hover:translate-y-5"
+                className="rounded-full w-full max-w-md mx-auto shadow-2xl transform transition-transform duration-800 md:group-hover:grayscale md:group-hover:translate-x-5 md:group-hover:translate-y-5"
               />
             </div>
           </div>
