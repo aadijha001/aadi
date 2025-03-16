@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: <Code2 size={24} />,
       title: 'Frontend Development',
-      description: 'React, TypeScript, Tailwind CSS',
+      description: 'Angular, React, TypeScript, Tailwind CSS',
     },
     {
       icon: <Database size={24} />,

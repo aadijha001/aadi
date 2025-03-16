@@ -44,7 +44,7 @@ const Education = () => {
               <p className="font-medium mt-2">{edu.degree}</p>
               <div className="flex justify-between mt-2 text-gray-600">
                 <span>{edu.period}</span>
-                <span className="font-semibold">{edu.score}</span>
+                <span className="font-semibold text-gray-900">{edu.score}</span>
               </div>
             </div>
           ))}

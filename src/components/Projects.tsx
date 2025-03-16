@@ -7,25 +7,31 @@ const Projects = () => {
       title: 'Emotion Detection',
       description: 'Python-based emotion detection system',
       tech: ['Python', 'Machine Learning'],
-      github: 'https://github.com/aadijha001',
+      github: 'https://github.com/aadijha001/emotiondetection',
     },
     {
       title: 'Plant Leaf Disease Detection',
       description: 'Disease detection using CNN',
       tech: ['Python', 'CNN', 'Deep Learning'],
-      github: 'https://github.com/aadijha001',
+      github: 'https://github.com/aadijha001/plantleafdisease',
+    },
+    {
+      title: 'Word Prediction',
+      description: 'suggest current & next word',
+      tech: ['HTML', 'Javascript'],
+      github: 'https://github.com/aadijha001/word-prediction',
+    },
+    {
+      title: 'Algorithm Visualizer',
+      description: 'Interactive algorithm visualization tool',
+      tech: ['python'],
+      github: 'https://github.com/aadijha001/aadi01/tree/main/my%20projects',
     },
     {
       title: 'Real Time Coding',
       description: 'Collaborative coding platform',
       tech: ['React', 'Firebase'],
-      github: 'https://github.com/aadijha001',
-    },
-    {
-      title: 'Algorithm Visualizer',
-      description: 'Interactive algorithm visualization tool',
-      tech: ['JavaScript', 'React'],
-      github: 'https://github.com/aadijha001',
+      github: 'https://github.com/aadijha001/realtimecoding',
     }
   ];
 
@@ -36,7 +42,7 @@ const Projects = () => {
           <Code className="text-indigo-600" />
           Projects
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="flex flex-wrap justify-center items-center gap-8">
           {projects.map((project, index) => (
             <div 
               key={index} 

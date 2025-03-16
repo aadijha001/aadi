@@ -73,11 +73,11 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <Mail className="text-blue-600" size={20} />
-                <span>jhanaaditya@gmail.com</span>
+                <a href="mailto:jhanaaditya@gmail.com">jhanaaditya@gmail.com</a>
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-blue-600" size={20} />
-                <span>+91 620 1920 138</span>
+                <a href="tel:+916201920138">+91 620 1920 138</a>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-blue-600" size={20} />

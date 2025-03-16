@@ -1,6 +1,7 @@
 import React from "react";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
-import profile from "../images/Aaditya-color.svg";
+// import profile from "../images/Aaditya-color.svg";
+import profile from "../images/aadi.jpeg";
 import TypingEffect from "./TypingEffect";
 const Hero = () => {
   return (
@@ -60,7 +61,7 @@ const Hero = () => {
               <img
                 src={profile}
                 alt="Profile"
-                className="rounded-full w-full max-w-md mx-auto shadow-2xl transform transition-transform duration-800 md:group-hover:grayscale md:group-hover:translate-x-5 md:group-hover:translate-y-5"
+                className="rounded-full w-full max-w-md mx-auto shadow-2xl transform transition-transform duration-800 md:group-hover:grayscale"
               />
             </div>
           </div>
