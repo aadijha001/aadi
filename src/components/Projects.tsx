@@ -42,7 +42,7 @@ const Projects = () => {
           <Code className="text-indigo-600" />
           Projects
         </h2>
-        <div className="flex flex-wrap justify-center items-center gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div 
               key={index} 

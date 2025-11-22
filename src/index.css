@@ -29,14 +29,14 @@ html {
   /* background: linear-gradient(135deg, #f0f4f8 0%,#3d6780 100%); */
   border-radius: 0.5rem;
   /* background: linear-gradient(135deg, #f0f4f8 0%,rgb(156 163 175 / var(--tw-bg-opacity, 1)) 100%); */
-  background: linear-gradient(135deg, #a4b0bb 0%,rgb(156 163 175 / var(--tw-bg-opacity, 1)) 100%);
+  background: linear-gradient(135deg, #edfffe 0%,rgb(156 163 175 / var(--tw-bg-opacity, 1)) 400%);
 }
 
 
 .cards{
   border-radius: 0.5rem;
   transition: all 0.5s ease;
-  background: linear-gradient(135deg, #f0f4f8 0%,#0b161d 200%);
+  background: linear-gradient(135deg, #f0f4f8 0%,#bbc9d1 200%);
 }
 
 .bg-gradient {

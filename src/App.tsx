@@ -14,11 +14,11 @@ function App() {
     <div className="min-h-screen bg-gradient-main">
       <Navbar />
       <Hero />
-      <About />
-      <Skills />
       <Experience />
+      <Skills />
       <Projects />
       <Education />
+      <About />
       <Contact />
       <Footer />
     </div>
