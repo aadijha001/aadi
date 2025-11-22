@@ -24,15 +24,17 @@ const About = () => {
     <section id="about" className="py-20 bg-gradient section-fade-in">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
-        <p className="text-gray-600 mb-4">
-              <p>Always trying to learn new moves like Queen's gambit...........</p>
-              <p className='text-right'>So, yeah love travelling yet hate to travel.</p>
-              <p> Anything didn't go as planned :( what I do sit and start writing and studing stuffs</p>
-              <p className='text-center'>Love you ask :) Mountains I hear </p>
-              <p className='text-right'> Fear you say :( Horror movie I Remember</p>
-              <p> Hard you say didn't tried enough I feel</p>
-              <p className='text-center'>Peace you say :) Illusion it is</p>
-        </p>
+        <div className="text-gray-800 mb-4">
+            <p className="text-xl font-semibold">Love you ask :) Mountains I hear</p>
+            <p className="text-lg font-thin text-right">Fear you say :( Horror movie I Remember</p>
+            <p className="text-2xl font-medium italic text-center" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              Peace you say :) Illusion it is
+            </p>
+            <p className="text-lg font-medium">Always trying to learn new moves like Queen's gambit...........</p>
+            <p className="text-xl font-bold">Hard you say didn't tried enough I feel</p>
+            <p className="text-base font-semibold text-right">So, yeah love travelling yet hate to travel.</p><br />
+            <p className="text-lg font-normal text-center">Anything didn't go as planned :( what I do sit and start writing and studying stuffs "REBUILD IT"</p>
+        </div>
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <div

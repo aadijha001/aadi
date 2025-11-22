@@ -9,6 +9,7 @@ const Experience = () => {
       period: 'July 2023 - Present',
       type: 'OnSite',
       responsibilities: [
+        'Analyst Designer Features: Added multiple features enabling customers to design their workspace/views as per their requirements',
         'Angular Migration: Worked on migrating the applicaiton from ext to Angular',
         'Accessability Enhancement: Enhaced accessability and added measures for validation',
         'LOB components: Created Dynamic list view, enchanced banner',
